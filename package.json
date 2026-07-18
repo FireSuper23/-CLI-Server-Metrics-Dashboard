@@ -1,0 +1,17 @@
+{
+  "name": "server-metrics-dashboard",
+  "version": "1.0.0",
+  "description": "A live terminal dashboard for system metrics: CPU, RAM, temps, disks, network.",
+  "main": "index.js",
+  "bin": {
+    "metrics": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "systeminformation": "^5.23.5"
+  }
+}
